@@ -1,0 +1,491 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+	
+/*==========  Main Start  =============*/
+
+/*================  Main1 Start  ===============*/
+
+.main1{
+	margin-top: 100px;
+	display: flex;
+	gap: 188px;
+}
+
+.main-image1{
+	margin-left: 230px;
+	height: 477px;
+	width: 650px;
+}
+
+.main-title1{
+	height: 112px;
+	width: 481px;
+	font-size: 43px;
+	line-height: 45px;
+	color: #000;
+}
+
+.main-line1{
+	margin-bottom: 31px;
+	margin-top: 26px;
+	display: block;
+	width: 56px;
+	height: 2.8px;
+	border-radius: 10px;
+	background: #000;
+}
+
+.main-text1 {
+	height: 120px;
+	width: 450px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+}
+
+.main-button1{
+	margin-top: 37px;
+	border-color: #458FF6;
+	width: 200px;
+    height: 56px;
+    background: none;
+    border-radius: 55px;
+    color: #458FF6;
+}
+
+/*====================  Main1 End  ====================*/
+
+/*====================  Main2 Start  ====================*/
+
+.main2{
+	margin-top: 261px;
+	display: flex;
+}
+
+.main-wrapper{
+	margin-left: 280px;
+}
+
+.main-image2{
+	margin-top: -30px;
+	margin-left: 230px;
+	height: 434px;
+	width: 665px;
+
+}
+
+.main-title2{
+	height: 96px;
+	width: 254px;
+	color: #000;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.main-line2{
+	margin-bottom: 31px;
+	margin-top: 31px;
+	display: block;
+	width: 56px;
+	height: 2.8px;
+	border-radius: 10px;
+	background: #000;
+}
+
+.main-text2{
+	height: 120px;
+	width: 420px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+}
+
+.main-button2{
+	margin-top: 40px;
+	border-color: #458FF6;
+	width: 200px;
+    height: 56px;
+    background: none;
+    border-radius: 55px;
+    color: #458FF6;
+}
+
+/*==================  Main2 End  ========================*/
+
+/*======================  Section start  ===================*/
+
+.testimonials{
+	padding-top: 61px;
+	width: 1120px;
+	height: 425px;
+	margin-left: 265px;
+	margin-top: 269px;
+	background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+	border-radius: 24px;
+}
+
+.test-top-text{
+	margin: 0 auto;
+	font-size: 36px;
+	line-height: 48px;
+	color: #FFFFFF;
+	height: 48px;
+	width: 522px;
+	margin-bottom: 25px;
+}
+
+.test-top-line{
+	margin: 0 auto;
+	display: block;
+	width: 56px;
+	height: 2px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	margin-bottom: 70px;
+}
+
+.test-bottom{
+	display: flex;
+	gap: 100px;
+}
+
+.test-bottom-left{
+	display: flex;
+	margin-left: 110px;
+}
+
+.left-image{
+	border-radius: 50%;
+	
+}
+
+.left-wrapper{
+	margin-top: 25px;
+	margin-left: 38px;
+}
+
+.left-title{
+	font-size: 22px;
+	line-height: 48px;
+	height: 48px;
+	width: 184px;
+	color: #FFFFFF;
+}
+
+.left-sub{
+	height: 48px;
+	width: 119px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 35px;
+	color: rgba(255, 255, 255, 0.85);
+}
+
+
+.right-text{
+	height: 120px;
+	width: 420px;
+	font-size: 19px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+/*============================ Testimonials End =========================*/
+
+/*===================== Articles Start ====================*/
+
+.article{
+	margin-top: 281px;
+	height: 810px;
+	width: 1785px;
+}
+
+.article-top{
+	width: 462px;
+	height: 84px;
+}
+
+.art-top-text{
+	margin-left: 420px;
+	height: 56px;
+	width: 462px;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.art-top-line{
+	margin-left: 600px;
+	margin-top: 26px;
+	display: block;
+	width: 56px;
+	height: 2px;
+	background: #000;
+	border-radius: 5px;
+	margin-bottom: 72px;
+}
+
+.article-cards{
+	margin-top: 72px;
+	gap: 100px;
+	display: flex;
+}
+
+/*======================= Card1 start =============================*/
+
+.art-card1{
+	height: 512px;
+	width: 350px;
+	background: #FFFFFF;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+}
+
+.art-card1-img{
+	/*height: 246px;
+	width: 369px;*/
+	border-radius: 20px 20px 0px 0px;
+}
+
+.art-card1-title{
+	margin-top: 21px;
+	margin-bottom: 12px;
+	height: 64px;
+	width: 251px;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.art-card1-text{
+	margin-bottom: 25px;
+	height: 84px;
+	width: 266px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #7D7987;
+}
+
+.art-card1-sub{
+	height: 28px;
+	width: 266px;
+	font-size: 17px;
+	line-height: 28px;
+	color: #4089ED;
+}
+
+/*==================== Card1 End	===================*/
+
+/*======================  Card2 start ==================*/
+
+
+
+.art-card2{
+	height: 512px;
+	width: 350px;
+	background: #FFFFFF;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+}
+
+.art-card2-img{
+	/*height: 246px;
+	width: 369px;*/
+	border-radius: 20px 20px 0px 0px;
+}
+
+.art-card2-title{
+	margin-top: 21px;
+	margin-bottom: 12px;
+	height: 64px;
+	width: 251px;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.art-card2-text{
+	margin-bottom: 25px;
+	height: 84px;
+	width: 266px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #7D7987;
+}
+
+.art-card2-sub{
+	height: 28px;
+	width: 266px;
+	font-size: 17px;
+	line-height: 28px;
+	color: #4089ED;
+}
+
+/* ====================== Card2 End =======================*/
+
+/*======================= Card3 Start =======================*/
+
+.art-card3{
+	height: 512px;
+	width: 350px;
+	background: #FFFFFF;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+}
+
+.art-card3-img{
+	/*height: 246px;
+	width: 369px;*/
+	border-radius: 20px 20px 0px 0px;
+}
+
+.art-card3-title{
+	margin-top: 21px;
+	margin-bottom: 12px;
+	height: 64px;
+	width: 251px;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.art-card3-text{
+	margin-bottom: 25px;
+	height: 84px;
+	width: 266px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #7D7987;
+}
+
+.art-card3-sub{
+	height: 28px;
+	width: 266px;
+	font-size: 17px;
+	line-height: 28px;
+	color: #4089ED;
+}
+
+.art-button{
+	margin-top: 69px;
+	margin-left: 500px;
+	background-color: #FFF;
+	border-color: #458FF6;
+	height: 56px;
+	width: 200px;
+	border-radius: 55px;
+	color: #458FF6;
+}
+
+/*================= Articles End =======================*/
+
+
+/*================= Footer Start ==================*/
+
+.footer{
+	display: flex;
+	margin-left: 100px;
+	margin-top: 1201px;
+	width: 1600px;
+	height: 432px;
+	background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.foot-img{
+	margin-left: 191px;
+	margin-top: 118px;
+	height: 41px;
+	width: 160px;
+}
+
+.foot-text{
+	margin-top: 22px;
+	margin-left: 191px;
+	height: 84px;
+	width: 391px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.foot-sub{
+	height: 28px;
+	width: 391px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin-top: 31px;
+	margin-left: 190px;
+}
+
+.foot-infos{
+	margin-top: 109px;
+	display: flex;
+	gap: 150px;
+	margin-left: 150px;
+}
+
+.foot-info1{
+	font-size: 20px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #FFFFFF;
+	height: 60px;
+	width: 92px;
+}
+
+.foot-com1{
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 38px;
+	list-style-type: none;
+	font-weight: 300;
+}
+
+
+.foot-info2{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 60px;
+	color: #FFFFFF;
+	height: 60px;
+	width: 67px;
+}
+
+.foot-reg1{
+	text-decoration: none;
+	list-style-type: none;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 38px;
+
+}
+
+
+.foot-info3{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 60px;
+	color: #FFFFFF;
+	height: 60px;
+	width: 67px;
+
+}
+
+.foot-help1{
+	list-style-type: none;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 38px;
+}
+
+.list__link{
+	text-decoration: none;
+	color: white;
+}
